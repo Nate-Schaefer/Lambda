@@ -19,7 +19,7 @@ pipeline {
         }
         stage('job') {
             steps {
-                echo 'apple job please'
+                echo 'apple job please '
             }
         }
     }
