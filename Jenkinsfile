@@ -14,7 +14,7 @@ pipeline {
         }
         stage('give') {
             steps {
-                echo 'give me an'
+                echo 'give me a big'
             }
         }
         stage('job') {
