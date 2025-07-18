@@ -3,7 +3,7 @@ variable "aws_region" {
 }
 
 variable "lambda_function_name" {
-  default = "PowerOfMathFunction"
+  default = "PowerOfMathFunction2"
 }
 
 variable "lambda_runtime" {
@@ -19,5 +19,5 @@ variable "lambda_zip_path" {
 }
 
 variable "existing_lambda_role_arn" {
-  default     = "arn:aws:iam::123456789012:role/my-existing-lambda-role"
+  default     = "arn:aws:iam::398250236499:role/service-role/PowerOfMathFunction-role-c0uh2g0a"
 }
