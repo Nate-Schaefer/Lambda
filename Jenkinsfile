@@ -2,9 +2,24 @@ pipeline {
     agent any
 
     stages {
-        stage('Example') {
+        stage('Nick') {
             steps {
-                echo 'Hello, Jenkins :))!'
+                echo 'Hello Nick'
+            }
+        }
+        stage('Hageman') {
+            steps {
+                echo 'Hageman'
+            }
+        }
+        stage('give') {
+            steps {
+                echo 'give me '
+            }
+        }
+        stage('job') {
+            steps {
+                echo 'apple job please'
             }
         }
     }
